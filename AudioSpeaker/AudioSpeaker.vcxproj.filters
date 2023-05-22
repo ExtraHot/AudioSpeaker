@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{a24ecd05-8617-4eb8-8cd3-db9cd957e0dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{524c0348-cdd2-4069-83e9-a7114c355d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Исходные файлы">
+      <UniqueIdentifier>{a531f5e4-9e15-4b1e-a875-bab34168b9ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Файлы заголовков">
+      <UniqueIdentifier>{1a294843-5912-45c5-bf27-fdced754a931}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="BluetoothData.cpp">
+      <Filter>Modules\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Modules\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Speaker.cpp">
+      <Filter>Modules\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Battery.cpp">
+      <Filter>Modules\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="LEDPanel.cpp">
+      <Filter>Modules\Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Send_if.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="BluetoothData.h">
+      <Filter>Modules\Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Modules\Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="SendCom_if.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Speaker.h">
+      <Filter>Modules\Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Battery.h">
+      <Filter>Modules\Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="SendVol_if.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SendVolToLED_if.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="LEDPanel.h">
+      <Filter>Modules\Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
